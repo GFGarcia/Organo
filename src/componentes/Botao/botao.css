@@ -1,15 +1,29 @@
 .botao {
     background: #6278F7;
+    text-align: center;
     border-radius: 10px;
-    font-weight: 700;
-    font-size: 18px;
-    padding: 32px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    padding: 16px;
     color: #FFF;
     cursor: pointer;
-    font-weight: bold;
     border: none;
 }
 
 .botao:hover {
-    color: #95FFD4;
+    /* offset-x | offset-y | blur-radius | color */
+box-shadow: 0px 0px 6px rgba(0,0,0,0.7);
+}
+
+@media screen and (max-width: 940px) {
+    .botao {
+        padding: 14px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .botao {
+        padding: 16px;
+    }
 }

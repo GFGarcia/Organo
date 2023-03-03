@@ -3,5 +3,17 @@
     text-align: center;
 }
 .cabecalho img {
-    max-width: 100%;
+    max-width: 70%;
+}
+
+@media screen and (max-width:800px) {
+    .cabecalho img {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .cabecalho img {
+        max-width: 100%;
+    }
 }
